@@ -1,12 +1,8 @@
 # ALibrary
-========
-
 ALbirary is a PHP Library which contains collection of predefined functions.
 
 
 ## Functions
-==================
-
 * _aboveLimit() - Return values in an array which are greater than the given limit.
 * _belowLimit() - Return values in an array which are lower than the given limit.
 * _unique() - Returns an array containing only unique values.
@@ -19,19 +15,16 @@ ALbirary is a PHP Library which contains collection of predefined functions.
 
 
 ## Usage
-=====
-
 Using ALibrary is really really easy. You just need to include the ALibrary.php in your application/file and instantiate an object of the library class. After that you can you start using the ALibrary
 functions straight away.
 
 ## Example
-=======
-
+```
 include('./ALibrary.php');
 
 $ALibrary = new ALibrary();
 $area = $ALibrary->_area_of_triangle(array('height' => 3.78, 'base' => '3.78'), array('decimals' => 2));
-
+```
 Stay in touch for more examples and API doc.
 
 Thanks.
