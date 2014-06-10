@@ -310,7 +310,14 @@ class ALibrary
                     $height = $this->_a_math_options($height, $options);
                 }
                 return $height;
-            }else{
+            }else if(key_exists('area', $params) && key_exists('height', $params)){
+                $base = (2 * $params['area']) / $params['height'];
+                if(!is_null($options)){
+                    $base = $this->_a_math_options($base, $options);
+                }
+                return $base;
+            }
+            else{
                 $this->_a_throwExceptionOrString('Sorry, we expect height and base to calculate the area. Or area and base'
                         . ' to calculate the height. Or area and height to calculate the base. But we didn\'t find array'
                         . ' keys for those combinations.');
