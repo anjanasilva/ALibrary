@@ -1,4 +1,4 @@
 ALibrary
 ========
 
-A PHP library with pre defined functions
+ALbirary is a collection of predefined functions.
