@@ -24,7 +24,12 @@ Find area of a triangle when height is 3.78 and base is 2.75. Also you need to r
 include('./ALibrary.php');
 
 $ALibrary = new ALibrary();
-$area = $ALibrary->_area_of_triangle(array('height' => 3.78, 'base' => '2.75'), array('decimals' => 2));
+$area = $ALibrary->_area_of_triangle(array('height' => '3.73', 'base' => '2.77'), array('decimals' => 2));
+//returns 5.17 
+
+//If you need to return the value with 1 decimal.
+$area = $ALibrary->_area_of_triangle(array('height' => '3.73', 'base' => '2.77'), array('decimals' => 1));
+//returns 5.2 
 ```
 Stay in touch for more examples and API doc.
 
