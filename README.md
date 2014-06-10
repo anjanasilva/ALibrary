@@ -1,30 +1,30 @@
-ALibrary
+# ALibrary
 ========
 
 ALbirary is a PHP Library which contains collection of predefined functions.
 
 
-Existing functions
+## Functions
 ==================
 
-1). _aboveLimit() - Return values in an array which are greater than the given limit.
-2). _belowLimit() - Return values in an array which are lower than the given limit.
-3). _unique() - Returns an array containing only unique values.
-4). _even() - Returns an array containing only even values.
-5). _odd() - Returns an array containing only odd values.
-6). _average() - Returns the average of an value array.
-7). _area_of_square_rectangle() - Returns the area value of a given square or rectangle.
-8). _area_of_circle() - Returns the area value of a given circle
-9). _area_of_triangle() - Returns the area value of a given triangle. This function can be used to derive height and base values by giving respective values such as area/base, area/height
+* _aboveLimit() - Return values in an array which are greater than the given limit.
+* _belowLimit() - Return values in an array which are lower than the given limit.
+* _unique() - Returns an array containing only unique values.
+* _even() - Returns an array containing only even values.
+* _odd() - Returns an array containing only odd values.
+* _average() - Returns the average of an value array.
+* _area_of_square_rectangle() - Returns the area value of a given square or rectangle.
+* _area_of_circle() - Returns the area value of a given circle
+* _area_of_triangle() - Returns the area value of a given triangle. This function can be used to derive height and base values by giving respective values such as area/base, area/height
 
 
-Usage
+## Usage
 =====
 
 Using ALibrary is really really easy. You just need to include the ALibrary.php in your application/file and instantiate an object of the library class. After that you can you start using the ALibrary
 functions straight away.
 
-Example
+## Example
 =======
 
 include('./ALibrary.php');
