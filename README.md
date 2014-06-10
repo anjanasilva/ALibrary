@@ -19,7 +19,7 @@ Using ALibrary is really really easy. You just need to include the ALibrary.php 
 functions straight away.
 
 ## Example
-### Find area of a triangle when height is 3.78 and base is 2.75. Also you need to return the value with 2 decimals.
+Find area of a triangle when height is 3.78 and base is 2.75. Also you need to return the value with 2 decimals.
 ```
 include('./ALibrary.php');
 
