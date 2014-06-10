@@ -236,10 +236,7 @@ class ALibrary
         }
     }
     
-    public function _max_repetitions(){}
-    public function _min_repetitions(){}
-    public function _total(){}    
-    
+        
     /**
      * Returns a number or array containing area value of the given square or rectangle.
      *
